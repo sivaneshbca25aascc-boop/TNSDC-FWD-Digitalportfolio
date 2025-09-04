@@ -1,0 +1,347 @@
+Got it 👍
+
+I’ll update both:
+
+1. Name → Already changed to Sivanesh in your HTML.
+
+2. Background color → I’ll change your hero section gradient from blue (#4facfe, #00f2fe) to a blue → red gradient.
+
+Here’s your updated CSS:
+
+/* General Styles */
+
+body {
+
+  font-family: 'Poppins', sans-serif;
+
+  margin: 0;
+
+  padding: 0;
+
+  line-height: 1.6;
+
+}
+
+h1, h2, h3 {
+
+  margin: 0;
+
+}
+
+a {
+
+  text-decoration: none;
+
+}
+
+/* Navbar */
+
+.navbar {
+
+  background: #333;
+
+  color: white;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 15px 30px;
+
+  position: sticky;
+
+  top: 0;
+
+  z-index: 1000;
+
+}
+
+.logo {
+
+  font-size: 22px;
+
+  font-weight: 600;
+
+}
+
+.nav-links {
+
+  display: flex;
+
+  list-style: none;
+
+  gap: 20px;
+
+}
+
+.nav-links a {
+
+  color: white;
+
+  font-weight: 500;
+
+  transition: color 0.3s;
+
+}
+
+.nav-links a:hover {
+
+  color: #00f2fe;
+
+}
+
+.menu-toggle {
+
+  display: none;
+
+  font-size: 28px;
+
+  cursor: pointer;
+
+}
+
+/* Hero Section */
+
+.hero {
+
+  background: linear-gradient(to right, #0000ff, #ff0000); /* Blue → Red */
+
+  color: white;
+
+  text-align: center;
+
+  padding: 100px 20px;
+
+}
+
+.hero h1 {
+
+  font-size: 2.5rem;
+
+}
+
+.hero h1 span {
+
+  color: yellow;
+
+}
+
+.hero p {
+
+  margin: 15px 0;
+
+  font-size: 18px;
+
+}
+
+.btn {
+
+  background: white;
+
+  color: #333;
+
+  padding: 10px 20px;
+
+  border-radius: 5px;
+
+  font-weight: 600;
+
+  display: inline-block;
+
+  margin-top: 15px;
+
+}
+
+.btn:hover {
+
+  background: #ff0000;
+
+  color: white;
+
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+
+}
+
+/* About Section */
+
+.about {
+
+  padding: 60px 20px;
+
+  text-align: center;
+
+}
+
+.about-content {
+
+  margin-top: 20px;
+
+}
+
+.about-content img {
+
+  max-width: 150px;
+
+  border-radius: 50%;
+
+  margin: 20px;
+
+}
+
+/* Projects Section */
+
+.projects {
+
+  background: #f4f4f4;
+
+  padding: 60px 20px;
+
+  text-align: center;
+
+}
+
+.project-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+  gap: 20px;
+
+  margin-top: 30px;
+
+}
+
+.project-card {
+
+  background: white;
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+  transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+.project-card:hover {
+
+  transform: scale(1.05);
+
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+
+}
+
+/* Contact Section */
+
+.contact {
+
+  padding: 60px 20px;
+
+  text-align: center;
+
+}
+
+form {
+
+  max-width: 400px;
+
+  margin: auto;
+
+}
+
+input, textarea {
+
+  width: 100%;
+
+  padding: 10px;
+
+  margin: 10px 0;
+
+  border-radius: 5px;
+
+  border: 1px solid #ccc;
+
+}
+
+button {
+
+  background: #4facfe;
+
+  color: white;
+
+  border: none;
+
+  padding: 10px;
+
+  width: 100%;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+}
+
+button:hover {
+
+  background: #ff0000;
+
+}
+
+/* Footer */
+
+footer {
+
+  background: linear-gradient(to right, #0000ff, #ff0000);
+
+  color: white;
+
+  text-align: center;
+
+  padding: 15px;
+
+}
+
+/* Responsive Navbar */
+
+@media screen and (max-width: 768px) {
+
+  .nav-links {
+
+    display: none;
+
+    flex-direction: column;
+
+    background: #333;
+
+    position: absolute;
+
+    top: 60px;
+
+    right: 0;
+
+    width: 200px;
+
+    padding: 20px;
+
+  }
+
+  .nav-links.show {
+
+    display: flex;
+
+  }
+
+  .menu-toggle {
+
+    display: block;
+
+  }
+
+}
+
+✅ Now your site will display Sivanesh and the hero + footer background will be a blue → red gradient.
+
+Do you also want me to update the navbar background to match the blue–red gradient, instead of plain black?
